@@ -1,0 +1,194 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    
+}
+body{
+    
+    /* text-align: center; */
+   background-position: center;
+    background-color: rgb(164, 170, 231);
+    color:#e1ecec;
+    width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("homepage.jpg");
+  backdrop-filter: blur(1px);
+  background-position: center;
+  background-size: cover;
+  background-repeat:repeat;
+  height: 180vh;
+
+   
+}
+.logo{
+    background-image: url("black paw.png");
+    opacity: .5;
+    border-radius: 50%;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 2px
+    
+  }
+  .content{
+    width: 1400px;
+    height: 20px;
+    margin: auto;
+    padding-top: 10px;
+    /* background-color: #44240a; */
+    color: #ffffff;
+    position:relative;
+   
+  }
+  .content h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-top: 0;
+    letter-spacing: 2px;
+  }
+  ion-icon{
+    color: #ff7200; 
+    font-size: 30px;
+    /* padding-left: 2px; */
+    padding-top: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .content span{
+    color: #ff7200;
+}
+p{
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-bottom: #fff 2px solid;
+
+}
+
+
+.wrapper{
+  
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #f1ba85;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+h2{
+    color: rgb(235, 235, 241);
+    
+}
+
+
+label{
+    /* display:inline-block; */
+    width: 10px;
+    /* white-space: nowrap; */
+    margin-bottom: 2px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+   
+  
+
+    
+}
+input{
+    display: block;
+    border-radius: 3px;
+}
+
+.wrapper input:focus{
+    outline: none;
+  }
+  .wrapper input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    /* border-bottom: 1px solid #ff7200; */
+    border-bottom: 1px solid #ff7200;
+    /* margin-bottom: -10px; */
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    font-family: Arial;
+  }
+  select{
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 10px;
+    
+  }
+.Quote{
+    display:inline-block;
+    color:rgb(243, 91, 21)
+}
+.input {
+    display: table-cell;
+    
+}
+span{
+    color: rgb(244, 244, 245);
+}
+.submit-button {
+
+    padding: 10px 20px;
+
+    background-color: #d65114;
+
+    border: none;
+
+    color:white;
+    
+    border-radius: 4px;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    float: right;
+    margin-right: 170px;
+  }
+  
+  ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  
+  ul li a:hover{
+    color: #ff7200;
+  }

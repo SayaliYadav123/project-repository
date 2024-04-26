@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #03202d; 
+   
+}
+body{
+  background-position:fixed ;
+  background-color: #031f2de3;
+  /* background-image: url("animal\ .jpeg"); */
+}
+.logo{
+    background-image: url("black paw.png");
+    opacity: .3;
+    border-radius: 50%;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 2px
+    
+  }
+  
+  .content{
+    width: 1400px;
+    height: 20px;
+    margin: auto;
+    padding-top: 10px;
+    /* background-color: #44240a; */
+    color: #ffffff;
+    position:relative;
+  }
+  .content h1{
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-top: 0;
+    letter-spacing: 2px;
+    
+  }
+  ion-icon{
+    
+    color: #ff7200; 
+    font-size: 30px;
+    /* padding-left: 2px; */
+    padding-top: 5px;
+    transition: 0.3s ease;
+   
+  }
+  
+  .content span{
+    color: #ff7200;
+    
+    
+  }
+  .wrapper{
+    width: 750px;
+    height: 150px;
+    margin-left:18%;
+    border-style:solid ;
+    border-width: 3px;
+    border-color: #031f2de3;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+   
+    margin-top:100px ;
+   background-color: rgba(227, 186, 175, 0.776);
+   padding: 20px;
+   border-radius: 8px ;
+   box-shadow:0 0 30px 3px #ff9d53;
+   
+  }
+
+  .wrapper button {
+    
+    margin-top: auto;
+    transition-duration:0,4s ;
+    color:#e3dfdc;
+    background-color: #ff7200;
+    height: 60px; 
+    width: 120px;
+    font-size: x-large;
+    border-radius: 10px;
+  }
+  
+  .wrapper button:hover {
+   
+    background-color: #e39a65;
+    color: rgb(15, 15, 15);
+  }
+  .wrapper input{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    height: 50px;
+    width: 400px;
+    margin-top: auto;
+    margin-left:80px;
+    margin-top :40px;
+    border-radius: 10px;
+    
+  /* margin-right: 40px; */
+    
+  }
+  
+  ::placeholder{
+    font-size:larger;
+    color:#ff7200;
+    
+    padding-left: 10px;
+   
+  }
+  .heading{
+    height: 80px;
+    border-bottom: solid;
+    
+    
+  }
+  .remain{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("homeImage.jpg" );
+    
+    backdrop-filter:blur(8px);
+    background-size: 1390px 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    height: 80vh;
+    width: 100%;
+    background-color: #EF7215;
+  }
+  h3{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+    margin-right:300px;
+    font-size: 20px;
+  }
+  .dropdown {
+    background-color:rgba(227, 186, 175, 0);
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 84%;
+    margin-left: 80px;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(208, 195, 195, 0.4);
+    border-radius: 10px;
+    
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #ece3e3;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: larger;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .cat{
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    width: 300px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size:large;
+  object-fit: cover;
+  object-position: center;
+  border-style:solid ;
+    border-width: 3px;
+    border-color: #031f2de3;
+    background-color: rgba(227, 186, 175, 0.776);
+  border-radius: 5px;
+
+  box-shadow:0 0 30px 3px #ff9d53;
+
+
+    
+
+  }
+  #searchResults {
+    margin-top: 20px;
+  }
+  .cat a{
+
+    background-color:rgb(255, 255, 255) ;
+    color: #d45f00;
+    
+  }
+  .cat h2{
+    margin-top: 30px;
+    margin-left: 8px;
+  }

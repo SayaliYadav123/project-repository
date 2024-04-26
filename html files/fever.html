@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fever Information</title>
+<style>
+    .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: hsl(23, 99%, 58%);
+  border: 1px solid #090707;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  color:black;
+}
+
+p, ul {
+  color:black;
+  line-height: 1.6;
+}
+
+ul {
+  margin-left: 20px;
+}
+.goback-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #ff9429;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .goback-button:hover {
+        background-color: #45a049;
+    }
+
+
+</style>
+</head>
+<body>
+  <button class="goback-button" onclick="goBack()">Go Back</button>
+<div class="container">
+  <h1>Fever Information</h1>
+  <p>
+    Fever is a common symptom characterized by an elevation in body temperature, often in response to an infection or illness.
+    It is the body's natural response to fight off infections and stimulate the immune system.
+  </p>
+  <h2>Symptoms</h2>
+  <ul>
+    <li>Elevated body temperature above the normal range (typically 98.6°F or 37°C)</li>
+    <li>Chills or shivering</li>
+    <li>Sweating</li>
+    <li>Headache</li>
+    <li>Muscle aches</li>
+    <li>Weakness or fatigue</li>
+    <li>Loss of appetite</li>
+    <li>Dehydration (especially if fever is accompanied by vomiting or diarrhea)</li>
+    <li>Other symptoms depending on the underlying cause of the fever</li>
+  </ul>
+  <h2>Treatment</h2>
+  <p>
+    Treatment for fever typically focuses on addressing the underlying cause and relieving discomfort.
+    Depending on the severity and cause of the fever, treatment may include:
+  </p>
+  <ul>
+    <li>Over-the-counter fever-reducing medications such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin)</li>
+    <li>Rest and hydration to support the body's immune response</li>
+    <li>Treating the underlying infection or illness with antibiotics, antiviral medications, or other specific treatments</li>
+    <li>Cooling measures such as tepid sponge baths, wearing lightweight clothing, or using fans</li>
+    <li>Seeking medical attention if the fever persists, is accompanied by severe symptoms, or if there are concerns about its underlying cause</li>
+  </ul>
+  <p>
+    It is important to monitor fever closely, especially in infants, young children, elderly individuals, and those with weakened immune systems, as they may be at higher risk of complications.
+    If fever is persistently high (above 103°F or 39.4°C), lasts for more than a few days, or is associated with severe symptoms, seek medical attention promptly.
+  </p>
+</div>
+<script>
+  function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

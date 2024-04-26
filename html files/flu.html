@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flu Disease Information</title>
+<style>
+     .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: hsl(23, 99%, 58%);
+  border: 1px solid #090707;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  color:black;
+}
+
+p, ul {
+  color:black;
+  line-height: 1.6;
+}
+
+ul {
+  margin-left: 20px;
+}
+.goback-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #ff9429;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .goback-button:hover {
+        background-color: #45a049;
+    }
+
+</style>
+</head>
+<body>
+  <button class="goback-button" onclick="goBack()">Go Back</button>
+<div class="container">
+  <h1>Flu Disease Information</h1>
+  <p>
+    Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses. 
+    It can cause mild to severe illness and can lead to hospitalization and even death in some cases.
+  </p>
+  <h2>Symptoms</h2>
+  <ul>
+    <li>Fever or feeling feverish/chills</li>
+    <li>Cough</li>
+    <li>Sore throat</li>
+    <li>Runny or stuffy nose</li>
+    <li>Muscle or body aches</li>
+    <li>Headaches</li>
+    <li>Fatigue (tiredness)</li>
+    <li>Vomiting and diarrhea (more common in children than adults)</li>
+  </ul>
+  <h2>Treatment</h2>
+  <p>
+    Most people with the flu have mild illness and do not need medical care or antiviral drugs. 
+    However, in some cases, antiviral drugs may be prescribed to treat flu illness.
+  </p>
+  <p>
+    Over-the-counter medications may help relieve symptoms such as fever, cough, and congestion.
+    It is essential to stay hydrated and get plenty of rest.
+  </p>
+  <p>
+    Annual flu vaccination is the most effective way to prevent flu illness and its complications.
+  </p>
+</div>
+<script>
+  function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

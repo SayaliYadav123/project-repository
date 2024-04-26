@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rabies Disease Information</title>
+<style>
+     .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: hsl(23, 99%, 58%);
+  border: 1px solid #090707;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  color:black;
+}
+
+p, ul {
+  color:black;
+  line-height: 1.6;
+}
+
+ul {
+  margin-left: 20px;
+}
+.goback-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #ff9429;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .goback-button:hover {
+        background-color: #45a049;
+    }
+
+</style>
+</head>
+<body>
+  <button class="goback-button" onclick="goBack()">Go Back</button>
+<div class="container">
+  <h1>Rabies Disease Information</h1>
+  <p>
+    Rabies is a viral disease that affects the central nervous system of mammals, including humans. 
+    It is transmitted through the saliva of infected animals, usually through a bite.
+  </p>
+  <h2>Symptoms</h2>
+  <ul>
+    <li>Flu-like symptoms</li>
+    <li>Fever</li>
+    <li>Headache</li>
+    <li>Weakness</li>
+    <li>Discomfort or pain at the site of the bite</li>
+    <li>Agitation</li>
+    <li>Confusion</li>
+    <li>Difficulty swallowing</li>
+    <li>Excessive salivation</li>
+    <li>Seizures</li>
+    <li>Paralysis</li>
+  </ul>
+  <h2>Treatment</h2>
+  <p>
+    If you suspect you have been exposed to rabies, it is crucial to seek medical attention immediately. 
+    Post-exposure prophylaxis (PEP) is recommended for anyone who may have been exposed to the virus, 
+    which typically includes a series of rabies vaccinations along with rabies immune globulin.
+  </p>
+  <p>
+    Treatment for rabies exposure is most effective when administered soon after the exposure occurs.
+    However, once symptoms of rabies develop, the disease is almost always fatal.
+  </p>
+  <p>
+    Vaccination of pets, especially dogs and cats, is important for preventing rabies transmission to humans.
+  </p>
+</div>
+<script>
+  function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>
